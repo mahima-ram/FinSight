@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="W143UFdQLJXE5CfGB-7J">
+    <mxGraphModel dx="1935" dy="1260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-22" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="940" width="490" x="170" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-1" parent="BwVaehTb1JvU_w_vh6oE-22" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="START: Main.java&lt;div&gt;Application entry point - launches JavaFX&lt;/div&gt;" vertex="1">
+          <mxGeometry height="76.21621621621621" width="384.05405405405406" x="39.729729729729726" as="geometry" />
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-3" edge="1" parent="BwVaehTb1JvU_w_vh6oE-22" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="BwVaehTb1JvU_w_vh6oE-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="238.37837837837836" y="76.21621621621621" as="sourcePoint" />
+            <mxPoint x="238.37837837837836" y="139.72972972972974" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-4" parent="BwVaehTb1JvU_w_vh6oE-22" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="JavaFX User Interface&lt;div&gt;Dashboard and user input screens&lt;/div&gt;" vertex="1">
+          <mxGeometry height="76.21621621621621" width="397.2972972972973" x="39.729729729729726" y="139.72972972972974" as="geometry" />
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-5" edge="1" parent="BwVaehTb1JvU_w_vh6oE-22" source="BwVaehTb1JvU_w_vh6oE-4" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="172.16216216216216" y="241.35135135135135" as="sourcePoint" />
+            <mxPoint x="238.37837837837836" y="279.4594594594595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-6" parent="BwVaehTb1JvU_w_vh6oE-22" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Expense Management&lt;div&gt;Add, edit, delete, categorize expenses&lt;/div&gt;" vertex="1">
+          <mxGeometry height="76.21621621621621" width="185.4054054054054" y="266.7567567567568" as="geometry" />
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-7" parent="BwVaehTb1JvU_w_vh6oE-22" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Savings Goals&lt;div&gt;Create goals and record contributions&lt;/div&gt;" vertex="1">
+          <mxGeometry height="76.21621621621621" width="185.4054054054054" y="393.7837837837838" as="geometry" />
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-8" parent="BwVaehTb1JvU_w_vh6oE-22" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Budget Management&lt;div&gt;Set limits and track spending&lt;/div&gt;" vertex="1">
+          <mxGeometry height="76.21621621621621" width="185.4054054054054" x="304.5945945945946" y="266.7567567567568" as="geometry" />
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-9" parent="BwVaehTb1JvU_w_vh6oE-22" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Statistical Analysis&lt;div&gt;Calculate averages and provide recommendations&lt;/div&gt;" vertex="1">
+          <mxGeometry height="76.21621621621621" width="185.4054054054054" x="304.5945945945946" y="393.7837837837838" as="geometry" />
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-11" edge="1" parent="BwVaehTb1JvU_w_vh6oE-22" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="264.86486486486484" y="470" as="sourcePoint" />
+            <mxPoint x="264.86486486486484" y="546.2162162162163" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-12" parent="BwVaehTb1JvU_w_vh6oE-22" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Data Management / Gson&lt;div&gt;Loads and saves application data&lt;/div&gt;" vertex="1">
+          <mxGeometry height="76.21621621621621" width="304.5945945945946" x="86.08108108108108" y="571.6216216216217" as="geometry" />
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-13" parent="BwVaehTb1JvU_w_vh6oE-22" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Local JSON Storage&lt;div&gt;Expenses, budgets, savings goals&lt;/div&gt;" vertex="1">
+          <mxGeometry height="76.21621621621621" width="304.5945945945946" x="86.08108108108108" y="711.3513513513514" as="geometry" />
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-14" parent="BwVaehTb1JvU_w_vh6oE-22" style="rounded=0;whiteSpace=wrap;html=1;" value="Analytics Dashboard&lt;div&gt;Spending summaries, category charts, monthly trends, savings progress&lt;/div&gt;" vertex="1">
+          <mxGeometry height="76.21621621621621" width="423.7837837837838" x="26.486486486486488" y="863.7837837837839" as="geometry" />
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-15" parent="BwVaehTb1JvU_w_vh6oE-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Read &amp;amp; update financial data" vertex="1">
+          <mxGeometry height="38.108108108108105" width="165.54054054054052" x="258.2432432432432" y="495.40540540540536" as="geometry" />
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-16" edge="1" parent="BwVaehTb1JvU_w_vh6oE-22" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="225.1351351351351" y="546.2162162162163" as="sourcePoint" />
+            <mxPoint x="225.1351351351351" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-17" parent="BwVaehTb1JvU_w_vh6oE-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="User actions &amp;amp; input" vertex="1">
+          <mxGeometry height="38.108108108108105" width="99.32432432432432" x="195.99999999999997" y="292.1621621621622" as="geometry" />
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-18" parent="BwVaehTb1JvU_w_vh6oE-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Launches" vertex="1">
+          <mxGeometry height="38.108108108108105" width="99.32432432432432" x="244.99999999999997" y="88.91891891891892" as="geometry" />
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-19" edge="1" parent="BwVaehTb1JvU_w_vh6oE-22" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="225.1351351351351" y="660.5405405405405" as="sourcePoint" />
+            <mxPoint x="225.1351351351351" y="698.6486486486485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-20" edge="1" parent="BwVaehTb1JvU_w_vh6oE-22" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="258.2432432432432" y="698.6486486486485" as="sourcePoint" />
+            <mxPoint x="258.2432432432432" y="660.5405405405405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-21" parent="BwVaehTb1JvU_w_vh6oE-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Reads &amp;amp; writes JSON files" vertex="1">
+          <mxGeometry height="38.108108108108105" width="145.67567567567565" x="278.10810810810807" y="660.5405405405405" as="geometry" />
+        </mxCell>
+        <mxCell id="BwVaehTb1JvU_w_vh6oE-23" edge="1" parent="BwVaehTb1JvU_w_vh6oE-22" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="800" as="sourcePoint" />
+            <mxPoint x="240" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
